@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./news.css">
+    <!--bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="container-fluid row" style="background: #ffffff;">
+        <div class="col-2 py-2 px-3" style="height: 100vh;  overflow: scroll;">
+            <div style="color: #000000; font-weight: bold; ">Yoks News</div>
+            <div class="m-2 mt-3" style="color: #a7a7a7; cursor: pointer;">
+                <div style="color: #5d9cf1;" class="mb-2"><i class="bi bi-house-door-fill mx-2"></i> Home</div>
+                <div class="mb-2"><i class="bi bi-globe mx-2"></i>Breaking News</div>
+                <div class="mb-2"><i class="bi bi-graph-up mx-2"></i>Trending News</div>
+                <div class="mb-2"><i class="bi bi-people-fill mx-2"></i>Forum</div>
+                <div class="mb-2"><i class="bi bi-filter mx-2"></i>Categories</div>
+            </div>
+            <!-- <div class="mx-2 my-1" style="height: 1px; color: #a7a7a7;"></div> -->
+            <hr class="mx-1">
+            <div class="m-2 mt-3" style="color: #a7a7a7;cursor: pointer;">
+                <div class="mb-2"><i class="bi bi-clock-history mx-2"></i>History</div>
+                <div class="mb-2"><i class="bi bi-bookmark-check-fill mx-2"></i>Saved</div>
+                <div class="mb-2"><i class="bi bi-collection-fill mx-2"></i>Collections</div>
+            </div>
+            <hr class="mx-1">
+            <div class="mt-3" style="color: #a7a7a7; cursor: pointer;">
+                <div class="mb-2"><i class="bi bi-gear mx-2"></i>Setting</div>
+                <div class="mb-2"><i class="bi bi-person-circle mx-2"></i>Your Account</div>
+            </div>
+            <hr class="mx-1">
+            <div>
+                <div style="color: #000000; font-weight: bold;">Following</div>
+                <div class="mt-3" style="color: #a7a7a7; cursor: pointer;">
+                    <div class="mt-2"> <img class="rounded-circle mx-1" src="./download.png" alt="" width="20px"> CNN Indonesia</div>
+                    <div class="mt-2"> <img class="rounded-circle mx-1" src="./vice.png" alt="" width="20px">Vice</div>
+                    <div class="mt-2"> <img class="rounded-circle mx-1" src="./volix.png" alt="" width="20px">Volix Media</div>
+                    <div class="mt-2" style="color: #5d9cf1"><i class="bi bi-chevron-down px-2"></i>Show More</div>
+                </div>
+            </div>
+            <div class="mt-3" style="color: #a7a7a7; cursor: pointer;">
+                <div class="mb-2"><i class="bi bi-info-circle mx-2"></i>Help & Information</div>
+                <div class="mb-2" style="color: #cc9aa6;"><i class="bi bi-box-arrow-right mx-2"></i>Logout</div>
+                <div>@2023 Yoks News</div>
+            </div>
+        </div>
+        <div class="col-8">
+            <div class="mx-4 my-4" style="position: relative;">
+                <img class="" style="width: 100%; height: 190px; border-radius: 10px;" src="./nyls_files/free-photo-of-machu-picchu-lost-city-of-the-incas-in-peru.jpeg" alt="">
+                <input style="position: absolute; top: 45px; left: 75px; width: 80%; border: none; border-radius: 20px; padding: 10px 6px;" type="text" placeholder="Search...">
+                <div class="d-flex align-items-center" style="position: absolute; top: 105px; left: 155px; width: 80%; color: white; font-size: 20px; font-weight: 500;">
+                    <div class="mx-1">#Trendingnews</div>
+                    <div class="mx-1">#Mailing</div>
+                    <div class="mx-1">#sports</div>
+                    <div class="mx-1">#globalnews</div>
+                </div>   
+            </div>         
+            <div class="d-flex align-items-center justify-content-evenly my-2">
+                <div>Following</div>
+                <div>Forum</div>
+                <div>For you</div>
+            </div>
+            <hr class="mx-4">
+            <div class="my-2 d-flex align-items-center justify-content-evenly">
+                <button class="mx-1 px-3 py-1 rounded-pill" style="background: #ffffff; border: 1px solid grey; font-weight: 600;">All</button>
+                <button class="mx-1 px-3 py-1 rounded-pill" style="background: #ffffff; border: 1px solid grey; font-weight: 600;">Global</button>
+                <button class="mx-1 px-3 py-1 rounded-pill" style="background: #ffffff; border: 1px solid grey; font-weight: 600;">Business</button>
+                <button class="mx-1 px-3 py-1 rounded-pill" style="background: #ffffff; border: 1px solid grey; font-weight: 600;">Entertainment</button>
+                <button class="mx-1 px-3 py-1 rounded-pill" style="background: #ffffff; border: 1px solid grey; font-weight: 600;">Sports</button>
+                <button class="mx-1 px-3 py-1 rounded-pill" style="background: #ffffff; border: 1px solid grey; font-weight: 600;">Technology</button>
+            </div>
+            <div class="my-3 mx-4" style="color: #000000; font-weight: bold; font-size: 20px;">Trending News</div>
+            <div class="row">
+                <div class="col-6">
+                    <div class="px-4">
+                        <img class="rounded" style="width: 100%; height: 300px;" src="./ict.jpg" alt="">
+                    </div>
+                    <div class="mx-4 my-2" style="font-weight: 700;">Indian team breaches in to Semifinals of 2023WC after thrilling victory against srilanka.</div>
+                </div>
+                <div class="col-6">
+                    <div class="d-flex align-items-center">
+                        <img class="rounded" style="width:90px; height:90px;" src="./SRK.jpg" alt="">
+                        <div class="mx-2" style="font-weight: 700; font-size: 16px;">SRK's Jawan collects 1000cr worldwide.Grabs 2 1000club movies in a row.</div>
+                    </div>
+                    <hr>
+                    <div class="d-flex align-items-center my-2">
+                        <img class="rounded" style="width:90px; height:90px;" src="./war.jfif" alt="">
+                        <div class="mx-2" style="font-weight: 700; font-size: 16px;">War gets intense between israel and palestine.Life essentials supply gets delayed.</div>
+                    </div>
+                    <hr>
+                    <div class="d-flex align-items-center my-2">
+                        <img class="rounded" style="width:90px; height:90px;" src="./delhi.jpg" alt="">
+                        <div class="mx-2" style="font-weight: 700; font-size: 16px;">Delhi to celebrate diwali without crackers.State issued orders with warning on violators.</div>
+                    </div>
+                    <!-- <hr> -->
+                </div>
+                <div class="c0l-12">
+                    <div class="d-flex align-items-center my-2">
+                        <img class="rounded mx-4" src="./ai.avif" style="width:120px; height:120px;" alt="">
+                        <div>
+                            <div class="" style="font-size: 20px; font-weight: 700;">Amitabh bachan urges for leagal action against the fake morphing of actress rashmika.</div>
+                            <div class="my-2" style="font-size: 12px;">2 hours ago</div>
+                        </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-2">
+            <div class="my-3" style="color: #000000; font-weight: bold;">Trending Tags</div>
+            <div>
+                <div class="mx-2" style="font-size: 12px;">USA trending . tech</div>
+                <div class="mx-2" style="font-size: 18px; font-weight: 700;">#Elonmusk</div>
+                <div class="mx-2" style="font-size: 14px;">4k news <span class="mx-4">...</span></div>
+            </div>
+            <hr>
+            <div>
+                <div class="mx-2"style="font-size: 12px;">India trending . sports</div>
+                <div class="mx-2" style="font-size: 18px; font-weight: 700;">#ViratKholi</div>
+                <div class="mx-2" style="font-size: 14px;">6k news <span class="mx-4">...</span></div>
+            </div>
+            <hr>
+            <div>
+                <div class="mx-2"style="font-size: 12px;">India trending . politics</div>
+                <div class="mx-2" style="font-size: 18px; font-weight: 700;">#Modi</div>
+                <div class="mx-2" style="font-size: 14px;">4k news <span class="mx-4">...</span></div>
+            </div>
+            <hr>
+            <div>
+                <div class="mx-2" style="font-size: 12px;">Chennai trending . movie</div>
+                <div class="mx-2" style="font-size: 18px; font-weight: 700;">#Thalapathy</div>
+                <div class="mx-2" style="font-size: 14px;">14k news <span class="mx-4">...</span></div>
+            </div>
+            <hr>
+            <div>
+                <div class="mx-2" style="font-size: 12px;">Chennai trending . movie</div>
+                <div class="mx-2" style="font-size: 18px; font-weight: 700;">#leo</div>
+                <div class="mx-2" style="font-size: 14px;">2k news <span class="mx-4">...</span></div>
+            </div>
+            <hr>
+            <div>
+                <div class="mx-2" style="font-size: 12px;">Global trending . global</div>
+                <div class="mx-2" style="font-size: 18px; font-weight: 700;">#Saynotowar</div>
+                <div class="mx-2" style="font-size: 14px;">9k news <span class="mx-4">...</span></div>
+            </div>
+            <hr>
+            <div class="my-2" style="color: #5d9cf1"><i class="bi bi-chevron-down px-2"></i>Show More</div>
+            <div class="mx-2" style="color: #000000; font-weight: bold;">Trending People</div>
+
+            <div class="d-flex align-items-center mt-2 mx-1">
+                <img class="rounded-circle" style="width:40px; height:40px;" src="./vj.jpg" alt="">
+                <div class="mx-2">
+                    <div style="font-size: 14px; font-weight: 700;">Vijay</div>
+                    <div  style="font-size: 12px;">15k mentions <span class="mx-1">...</span></div>
+                </div>
+            </div>
+            <div class="d-flex align-items-center mt-3 mx-1">
+                <img class="rounded-circle" style="width:40px; height:40px;" src="./virat.jfif" alt="">
+                <div class="mx-2">
+                    <div style="font-size: 14px; font-weight: 700;">ViratKholi</div>
+                    <div  style="font-size: 12px;">25k mentions <span class="mx-1">...</span></div>
+                </div>
+            </div>
+            <div class="d-flex align-items-center mt-3 mx-1">
+                <img class="rounded-circle" style="width:40px; height:40px;" src="./modi.jfif" alt="">
+                <div class="mx-2">
+                    <div style="font-size: 14px; font-weight: 700;">NarendraModi</div>
+                    <div  style="font-size: 12px;">12k mentions <span class="mx-1">...</span></div>
+                </div>
+            </div>
+            <div class="d-flex align-items-center mt-3 mx-1">
+                <img class="rounded-circle" style="width:40px; height:40px;" src="./ambani.jpg" alt="">
+                <div class="mx-2">
+                    <div style="font-size: 14px; font-weight: 700;">Mukesh Ambani</div>
+                    <div  style="font-size: 12px;">5k mentions <span class="mx-1">...</span></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

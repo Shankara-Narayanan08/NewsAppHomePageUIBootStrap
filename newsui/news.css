@@ -1,0 +1,22 @@
+/* For WebKit-based browsers */
+::-webkit-scrollbar {
+    width: 4px; /* Set the width of the scrollbar */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #c92b2b; /* Set the color of the scroll thumb */
+    border-radius: 6px; /* Set the border-radius of the scroll thumb */
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f0f0f0; /* Set the color of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #808080; /* Set the color of the scroll thumb on hover */
+}
+
+/* Optional: Set styles for the scrollbar buttons (arrows) */
+::-webkit-scrollbar-button {
+    display: none; /* Hide the scrollbar buttons */
+}
